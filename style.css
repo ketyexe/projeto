@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3e2e8;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    line-height: 0.8em;
+    margin-right: 20px;
+  }
+  
+  #navegador {
+    display: flex;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    margin-right: 20px;
+  }
+  
+  nav .home {
+    color: black;
+  }
+  
+  nav .produtos {
+    color: black;
+  }
+  
+  nav .sobre {
+    color: black;
+  }
+  
+  nav .Contato {
+    color: black;
+  }
+  
+  nav .Cadastre-se {
+    color: black;
+  }
+  
+  main {
+    background-color: #f1efe8;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  main img {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 640px) {
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+  }
+  
+  main img {
+    width: 600px;
+  }
+  
+  main p {
+    width: 400px;
+  }
+  
+
+
+
+
+
+
+
+
+
